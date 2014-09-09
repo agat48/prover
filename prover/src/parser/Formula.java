@@ -13,12 +13,13 @@ import java.util.ArrayList;
  * @author Agat
  */
 public class Formula extends FormulaPart {
-    String sign;
+    LogicalSign sign;
     ArrayList<FormulaPart> literals;
     public Formula() {
         literals = new ArrayList<>();
     }
-    public Formula(FormulaPart p, FormulaPart q, String s) {
+    public Formula(FormulaPart p, FormulaPart q, LogicalSign s) {
+        super();
         literals.add(p);
         literals.add(q);
         sign = s;

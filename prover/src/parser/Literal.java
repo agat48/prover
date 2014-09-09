@@ -17,6 +17,7 @@ public class Literal extends FormulaPart {
         positive = true;
     }
     public Literal(String l, String sign) {
+        super();
         lit = l;
         switch(sign) {
             case "~" : positive = false;
