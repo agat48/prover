@@ -4,13 +4,14 @@
  * and open the template in the editor.
  */
 
-package prover;
+package parser;
 
 /**
  *
  * @author Agat
  */
-public class Prover {
-
-    
+public class Parser {
+    public void parseFormula(String s) {
+        
+    }
 }

@@ -4,13 +4,12 @@
  * and open the template in the editor.
  */
 
-package prover;
+package graph;
 
 /**
  *
  * @author Agat
  */
-public class Prover {
-
+public class Graph {
     
 }
